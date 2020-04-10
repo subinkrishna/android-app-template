@@ -1,15 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:layout_gravity="center"
+        android:text="Photos for you! @subinkrishna"
+        android:fontFamily="@font/inter"
+        style="@style/AppTextAppearance" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Photos for you! @subinkrishna"
+        android:fontFamily="@font/inter"
+        style="@style/AppTextAppearance" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-> Photos for you! @subinkrishna"
+        android:fontFamily="@font/inter"
+        style="@style/AppTextAppearance.Medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Photos for you! @subinkrishna"
+        android:fontFamily="@font/inter"
+        android:textStyle="bold"
+        style="@style/AppTextAppearance.Medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="Photos for you! @subinkrishna"
         style="@style/AppTextAppearance.Large" />
 
-</FrameLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:textAllCaps="false"
+        style="@style/AppTextAppearance"
+        android:text="Click this one -> "
+    />
+
+</LinearLayout>

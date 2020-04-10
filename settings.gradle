@@ -1,2 +1,3 @@
 rootProject.name='splash'
 include ':app'
+include ':fonts'
