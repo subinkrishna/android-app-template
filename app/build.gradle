@@ -33,6 +33,8 @@ dependencies {
     implementation "androidx.core:core-ktx:$versions.ktxCore"
     implementation "androidx.constraintlayout:constraintlayout:$versions.constraintLayout"
 
+    debugImplementation "com.squareup.leakcanary:leakcanary-android:$versions.leakcanary"
+
     testImplementation "junit:junit:$versions.junit"
     androidTestImplementation "androidx.test.ext:junit:$versions.junitExt"
     androidTestImplementation "androidx.test.espresso:espresso-core:$versions.espresso"
