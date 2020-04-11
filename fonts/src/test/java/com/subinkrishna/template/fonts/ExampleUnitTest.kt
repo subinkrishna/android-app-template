@@ -1,4 +1,4 @@
-package com.subinkrishna.splash.fonts
+package com.subinkrishna.template.fonts
 
 import org.junit.Test
 

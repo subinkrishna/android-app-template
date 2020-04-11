@@ -1,2 +1,1 @@
-# splash
-Unofficial Android client for Unsplash
+# Android project template

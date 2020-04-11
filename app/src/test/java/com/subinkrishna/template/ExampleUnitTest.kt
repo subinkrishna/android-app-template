@@ -1,4 +1,4 @@
-package com.subinkrishna.splash
+package com.subinkrishna.template
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

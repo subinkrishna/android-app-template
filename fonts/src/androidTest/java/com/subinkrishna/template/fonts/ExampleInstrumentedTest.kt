@@ -1,4 +1,4 @@
-package com.subinkrishna.splash.fonts
+package com.subinkrishna.template.fonts
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

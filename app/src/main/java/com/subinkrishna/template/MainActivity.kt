@@ -1,4 +1,4 @@
-package com.subinkrishna.splash
+package com.subinkrishna.template
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
